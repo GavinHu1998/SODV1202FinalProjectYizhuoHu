@@ -1,5 +1,21 @@
 ﻿using System;
+/*
+ Step 1: Create a basic class structure
+Define the Piece class, Player class, Board class, and Game class.
+The reason for doing this is that it complies with the principles of OOP.
+Encapsulation: Classes encapsulate data and operations together and provide a public interface.
+Abstraction: By defining classes and attributes, the commonalities of various entities in the game can be abstracted.
+It will Make code more modular, maintainable, and extensible.
 
+Step 2: Implement basic operations
+Add chess pieces and print the board in the Board class.
+Implement basic logic in the Game class.
+Implement victory detection in the Board class.
+Set up the player class and piece class.
+
+Step 3: Integrate and run the game
+Write the main program, integrate all classes and run the game.
+ */
 public class Game
 {
     private Board board;
@@ -210,7 +226,6 @@ public class Piece
         return Color.GetHashCode();
     }
 }
-
 
 class Program
 {
